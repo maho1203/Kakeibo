@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>家計簿</title>
+</head>
+<body>
+    <h1>家計簿</h1>
+    <table>
+        <tr>
+            <th>日付</th>
+            <th>カテゴリー</th>
+            <th>金額</th>
+            <th>説明</th>
+        </tr>
+        {% for expense in expenses %}
+        <tr>
+            <td>{{ expense.date }}</td>
+            <td>{{ expense.category }}</td>
+            <td>{{ expense.amount }}</td>
+            <td>{{ expense.description }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

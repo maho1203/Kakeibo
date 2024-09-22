@@ -1,0 +1,10 @@
+APScheduler==3.10.4
+asgiref==3.7.2
+Django==5.0
+django-bootstrap5==23.3
+Pillow==10.1.0
+pytz==2023.3.post1
+six==1.16.0
+sqlparse==0.4.4
+tzdata==2023.3
+tzlocal==5.2
